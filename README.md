@@ -99,22 +99,6 @@ cd DSA-Placement-Prep/Arrays/Easy
 # 3. Open and study the solution
 # Each file contains problem link, approach explanation, and code
 ```
-
-### 📖 Each Solution File Contains:
-```cpp
-/*
- * Problem: <Problem Name>
- * Link: <LeetCode / GFG Link>
- * Difficulty: Easy / Medium / Hard
- *
- * Approach:
- *   Brute Force  → O(n²) time, O(1) space
- *   Optimal      → O(n)  time, O(1) space
- *
- * Key Insight: <What makes this solution click>
- */
-```
-
 ---
 
 ## 🤝 How to Contribute
