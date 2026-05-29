@@ -1,28 +1,44 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-int kadanesAlgo(vector<int> &arr)
-{
-    int currSum = 0;
-    int maxSum = INT_MIN;
 
-    for (int i = 0; i < arr.size(); i++)
-    {
-        currSum += arr[i];
 
-        maxSum = max(maxSum, currSum);
+int main(){
+    vector<int>arr={-2,1,-3,4,-1,2,1,-5,4};
 
-        if (currSum < 0)
-            currSum = 0;
+     int currSum=0;
+    int maxSum=INT_MIN;
+
+    int st=0;
+    int end=0;
+    int temp=0;
+
+    for(int i=0;i<arr.size();i++){
+
+        if(currSum==0){
+            temp=i;
+        }
+
+
+
+        currSum+=arr[i];
+
+        if(currSum>maxSum){
+            maxSum=currSum;
+            st=temp;
+            end=i;
+        }
+
+        if(currSum<0) currSum=0;        
     }
-    return maxSum;
-}
 
-int main()
-{
-    vector<int> arr = {2, 3, -8, 7, -1, 2, 3};
+    cout<<"maxSum is: "<<maxSum<<endl;
 
-    cout << "Max subArray sum is: " << kadanesAlgo(arr);
+    for(int i=st;i<=end;i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+
 
     return 0;
 }
