@@ -44,7 +44,7 @@ Whether you're a **beginner** starting your DSA journey or a **final-year studen
 | # | Topic | Status | Problems Solved |
 |---|-------|--------|----------------|
 | 1 | **Arrays** — Easy | ✅ Done | ✔️ All Easy |
-| 2 | **Arrays** — Medium | 🔄 In Progress | — |
+| 2 | **Arrays** — Medium | ✅ Done | ✔️ All Medium |
 | 3 | **Arrays** — Hard | ⏳ Upcoming | — |
 | 4 | **Strings** | ⏳ Upcoming | — |
 | 5 | **Linked List** | ⏳ Upcoming | — |
